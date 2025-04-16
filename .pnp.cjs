@@ -4773,6 +4773,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@fastify/busboy", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/@fastify-busboy-npm-2.1.0-960844a007-3233abd10f.zip/node_modules/@fastify/busboy/",\
+          "packageDependencies": [\
+            ["@fastify/busboy", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@gar/promisify", [\
         ["npm:1.1.3", {\
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
@@ -12187,16 +12196,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["busboy", [\
-        ["npm:1.6.0", {\
-          "packageLocation": "./.yarn/cache/busboy-npm-1.6.0-ebb5cbb04b-32801e2c01.zip/node_modules/busboy/",\
-          "packageDependencies": [\
-            ["busboy", "npm:1.6.0"],\
-            ["streamsearch", "npm:1.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["byte-access", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/byte-access-npm-1.0.1-e148575398-12d5350d9f.zip/node_modules/byte-access/",\
@@ -14172,7 +14171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:13e8211fef7d70350208644f0998d53969a81b86246fda7d97d7fa9b9d174e45548bc528c8768f08c02096f917b2dd6a8e4dcec6187e472dfaf96e40b05be272#npm:4.3.4"],\
             ["native-fetch", "virtual:c01d0185fbc29f5942a2951f30ff6f27e667525e580859b85486afc39ce79f4d19913e121d5ac9453ca010a8200cbfa2c6de2bc708966b12e2c32a1a40f144ba#npm:4.0.2"],\
             ["receptacle", "npm:1.3.2"],\
-            ["undici", "npm:5.14.0"]\
+            ["undici", "npm:5.28.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21544,7 +21543,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["native-fetch", "virtual:c01d0185fbc29f5942a2951f30ff6f27e667525e580859b85486afc39ce79f4d19913e121d5ac9453ca010a8200cbfa2c6de2bc708966b12e2c32a1a40f144ba#npm:4.0.2"],\
             ["@types/undici", null],\
-            ["undici", "npm:5.14.0"]\
+            ["undici", "npm:5.28.3"]\
           ],\
           "packagePeers": [\
             "@types/undici",\
@@ -26899,15 +26898,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["streamsearch", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/streamsearch-npm-1.1.0-fc3ad6536d-1cce16cea8.zip/node_modules/streamsearch/",\
-          "packageDependencies": [\
-            ["streamsearch", "npm:1.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["string-width", [\
         ["npm:1.0.2", {\
           "packageLocation": "./.yarn/cache/string-width-npm-1.0.2-01031f9add-5c79439e95.zip/node_modules/string-width/",\
@@ -28086,11 +28076,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["undici", [\
-        ["npm:5.14.0", {\
-          "packageLocation": "./.yarn/cache/undici-npm-5.14.0-747f9fac1d-7a076e44d8.zip/node_modules/undici/",\
+        ["npm:5.28.3", {\
+          "packageLocation": "./.yarn/cache/undici-npm-5.28.3-fb5b0fbd18-fa1e65aff8.zip/node_modules/undici/",\
           "packageDependencies": [\
-            ["undici", "npm:5.14.0"],\
-            ["busboy", "npm:1.6.0"]\
+            ["undici", "npm:5.28.3"],\
+            ["@fastify/busboy", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
